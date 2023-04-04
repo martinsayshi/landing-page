@@ -3,6 +3,8 @@
 body {
     margin: 0;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -90,8 +92,7 @@ h2 {
 }
 
 .card img {
-    max-width: 600px;
-    max-height: 400px;;
+
     background-color: #fff;
     border: 2px solid #3882f6;
     border-radius: 8px;
@@ -116,4 +117,46 @@ h2 {
     text-align: end;
     font-weight: bold;
     font-size: 16px;
+}
+
+.container-cta {
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 75px 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.cta-title {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: larger;
+}
+
+.cta-text {
+    color:#F9faf8;
+    font-size: 14px;
+}
+
+.cta-btn {
+    border: 1px solid white;
+    background-color: #3882f6; 
+    
+
+}
+
+.cta h2{
+    text-align: start;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #1F2937;
+    font-size: 16px;
+    padding: 24px 0;
 }
